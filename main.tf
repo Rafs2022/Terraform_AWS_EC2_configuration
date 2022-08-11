@@ -26,7 +26,6 @@ resource "aws_internet_gateway" "raf_internet_gateway" {
   tags = {
     name = "raf-igw"
   }
-
 }
 
 resource "aws_route_table" "raf_public_rt" {
@@ -65,7 +64,6 @@ resource "aws_security_group" "raf_scg" {
     to_port     = 0
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
-
   }
 }
 
@@ -84,7 +82,5 @@ resource "aws_instance" "dev_node" {
 
   tags = {
     "name" = "dev-node"
-
   }
-
 }
