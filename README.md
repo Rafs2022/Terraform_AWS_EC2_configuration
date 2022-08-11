@@ -1,7 +1,7 @@
 # terraform_project1
 
-This is a Terraform configuration that will deploy
-AWS resources and an EC2 instance running a bash script that will install Docker.
+This is a Terraform configuration that deploys
+AWS resources and an EC2 instance running Ubuntu server and a bash script installing Docker.
 
 EC2 instance: Ubuntu 18.04 server
 
